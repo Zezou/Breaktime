@@ -10,7 +10,7 @@ from pydub.playback import play
 
 
 def breaktime(sound):
-    while 1 == 1:
+    while True:
         time.sleep(1200)
         print('Take a break')
         for i in range(3):
